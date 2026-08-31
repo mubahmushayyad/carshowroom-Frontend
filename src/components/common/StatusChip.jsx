@@ -1,0 +1,1 @@
+import {Chip} from '@mui/material'; export default function StatusChip({status}){const map={Available:'success',Approved:'info',Completed:'success',Reserved:'warning',Pending:'warning',Rejected:'error',Sold:'default',Active:'success',Inactive:'default'};return <Chip size="small" label={status} color={map[status]||'default'}/>}

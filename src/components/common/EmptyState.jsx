@@ -1,0 +1,1 @@
+import {Paper,Typography} from '@mui/material'; export default function EmptyState({title='No records found',text='Try changing your search or filters.'}){return <Paper sx={{p:5,textAlign:'center'}}><Typography variant="h6">{title}</Typography><Typography color="text.secondary">{text}</Typography></Paper>}
